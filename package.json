@@ -1,88 +1,24 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "passport-discourse",
-        "scope": null,
-        "escapedName": "passport-discourse",
-        "name": "passport-discourse",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "S:\\Projects\\Citra\\Authentication\\Project\\CitraAuth\\CitraAuth"
-    ]
-  ],
-  "_from": "passport-discourse@latest",
-  "_id": "passport-discourse@1.0.3",
-  "_inCache": true,
-  "_location": "/passport-discourse",
-  "_nodeVersion": "4.3.1",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/passport-discourse-1.0.3.tgz_1468251148655_0.4285806210245937"
-  },
-  "_npmUser": {
-    "name": "edhemphill",
-    "email": "npm@wigwag.com"
-  },
-  "_npmVersion": "2.8.3",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "passport-discourse",
-    "scope": null,
-    "escapedName": "passport-discourse",
-    "name": "passport-discourse",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/passport-discourse/-/passport-discourse-1.0.3.tgz",
-  "_shasum": "0e3beb61c182ad28d1a4f3c29432d63a0dc303de",
-  "_shrinkwrap": null,
-  "_spec": "passport-discourse",
-  "_where": "S:\\Projects\\Citra\\Authentication\\Project\\CitraAuth\\CitraAuth",
-  "author": {
-    "name": "Ed Hemphill",
-    "email": "npm@wigwag.com",
-    "url": "http://www.wigwag.com/"
-  },
-  "bugs": {
-    "url": "https://github.com/edhemphill/passport-discourse/issues"
-  },
-  "dependencies": {
-    "passport-strategy": "^1.0.0"
-  },
-  "description": "A Passport strategy for authenticating using a Discourse forum",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "0e3beb61c182ad28d1a4f3c29432d63a0dc303de",
-    "tarball": "https://registry.npmjs.org/passport-discourse/-/passport-discourse-1.0.3.tgz"
-  },
-  "gitHead": "d6da4bdd69b8623388f67cde3b0487ac6814f514",
-  "homepage": "https://github.com/edhemphill/passport-discourse#readme",
-  "license": "MIT",
-  "main": "lib/index.js",
-  "maintainers": [
-    {
-      "name": "edhemphill",
-      "email": "npm@wigwag.com"
-    }
-  ],
-  "name": "passport-discourse",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edhemphill/passport-discourse.git"
-  },
+  "name": "passport-discourse-sso",
+  "version": "1.0.0",
+  "description": "A passport Single Sign on module for Discourse. Allows an application to login using Discourse credentials. Based on edhemphill/passport-discourse.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepenguinmaster/passport-discourse-sso.git"
+  },
+  "keywords": [
+    "Passport",
+    "Discourse",
+    "SSO"
+  ],
+  "author": "Modified by Robert Lisiecki",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/thepenguinmaster/passport-discourse-sso/issues"
+  },
+  "homepage": "https://github.com/thepenguinmaster/passport-discourse-sso#readme"
 }
