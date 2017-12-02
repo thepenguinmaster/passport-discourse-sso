@@ -2,7 +2,7 @@
   "name": "passport-discourse-sso",
   "version": "1.0.0",
   "description": "A passport Single Sign on module for Discourse. Allows an application to login using Discourse credentials. Based on edhemphill/passport-discourse.",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
